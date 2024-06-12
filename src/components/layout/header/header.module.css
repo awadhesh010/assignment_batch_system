@@ -1,0 +1,18 @@
+.nav_item{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav_home{
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+}
+.nav_brand{
+    font-weight: 700;
+    font-size: 26px;
+}
+.custom_btn{
+    margin-right: 90px !important;
+   
+}

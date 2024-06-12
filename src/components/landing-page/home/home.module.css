@@ -1,0 +1,25 @@
+.main_containt{
+    font-size: 50px;
+    font-weight: 800;
+    color: #000;
+}
+
+.play_icon{
+    font-size: 1.5rem;
+}
+.fin_discrip{
+    font-size: 1.2rem;
+    color: #808080;
+}
+
+/* Media quiery - responsive */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .custom_resp{
+        margin-top: 1.5rem !important;
+    }
+    .containt_res{
+        padding-left: 1rem !important;
+    }
+}
+

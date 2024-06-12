@@ -1,0 +1,26 @@
+.container_cust{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.icon{
+    color: #FF5555;
+    font-size: 1.5rem;
+    margin-right: .1rem;
+}
+.headings{
+    font-size: 26px;
+    font-weight: 560;
+}
+.links{
+    font-weight: 560;
+}
+.email_input{
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    color: #FF5555;
+}
+.email_input::placeholder{
+    color: rgb(119, 111, 111);
+    font-weight: 550;
+}

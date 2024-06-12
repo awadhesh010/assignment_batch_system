@@ -1,0 +1,12 @@
+.container_cust{
+    margin-top: 100px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading_cust{
+    margin: 0 !important;
+    padding: 0 !important;
+}
