@@ -27,3 +27,16 @@
     margin-top: 1.4rem;
 
 }
+
+/* responsive  - media quary */
+
+@media only screen and (max-width: 600px) {
+    .resp_img {
+      right: -20px !important;
+      top: 100px;
+    }
+
+    .resp_img2{
+        margin-top: 1px !important;
+    }
+  }

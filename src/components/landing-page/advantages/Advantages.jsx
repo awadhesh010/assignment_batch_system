@@ -15,7 +15,7 @@ const Advantages = ()=>{
                 </div>
 
                 <div className="col-md-6">
-                     <Image style={{marginTop:"-60px"}} src="/assets/advantage.png" className='img-fluid' width={"670"} height={"500"} alt='feature' />
+                     <Image style={{marginTop:"-60px"}} src="/assets/advantage.png" className={`img-fluid ${styles.resp_img}`} width={"670"} height={"500"} alt='feature' />
                 </div>
             </div>
 

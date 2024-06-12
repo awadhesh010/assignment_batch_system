@@ -27,14 +27,14 @@ const Features = () => {
     ]
     return (
         <div className={`container-fluid overflow-hidden position-relative ${styles.container_cust}`}>
-            <Image className="position-absolute" style={{ right: "-120px", top: "1px", zIndex: -1 }} src={'/assets/head_blur.png'} width={350} height={350} alt='blur' />
+            <Image className={`position-absolute ${styles.resp_img}`} style={{ right: "-120px", top: "1px", zIndex: -1 }} src={'/assets/head_blur.png'} width={350} height={350} alt='blur' />
 
             <div className="row">
-                <div className="col-md-6">
-                    <Image style={{ marginTop: "-60px" }} src="/assets/features.png" className='img-fluid' width={"670"} height={"500"} alt='feature' />
+                <div className="col-md-6 order-1 order-md-0">
+                    <Image style={{ marginTop: "-60px" }} src="/assets/features.png" className={`img-fluid ${styles.resp_img2}`} width={"670"} height={"500"} alt='feature' />
                 </div>
 
-                <div className="col-md-6 ">
+                <div className="col-md-6 order-0 order-md-1">
                     <h5 className="section_title">FEATURES</h5>
                     <h3 className="section_heading">Uifry Premium</h3>
                     <div className={styles.feature_group}>

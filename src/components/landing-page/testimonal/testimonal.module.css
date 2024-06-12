@@ -1,12 +1,22 @@
-.container_cust{
+.container_cust {
     margin-top: 100px;
 }
 
-.heading{
+.heading {
     display: flex;
     justify-content: center;
 }
-.heading_cust{
+
+.heading_cust {
     margin: 0 !important;
     padding: 0 !important;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+    .resp_heading {
+        color: #000;
+        font-size: 2rem;
+        font-weight: bold;
+    }
 }

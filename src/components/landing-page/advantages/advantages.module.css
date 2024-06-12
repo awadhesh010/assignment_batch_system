@@ -12,3 +12,10 @@
     font-size: 2rem;
     margin: 3px;
 }
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+    .resp_img{
+        margin-top: 1px !important;
+    }
+}

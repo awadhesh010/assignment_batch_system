@@ -24,3 +24,9 @@
     color: rgb(119, 111, 111);
     font-weight: 550;
 }
+
+/* responsive - media query */
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  
+  }
