@@ -8,7 +8,6 @@ const Footer = () => {
         <div className="container mt-5">
             <footer className="py-4">
                 <div className="row">
-
                     <div className="col-sm-12 col-md-3 mb-3">
                         <Image className="mb-3" src='/assets/logo.png' width={120} height={35} alt="Brand" />
                         <ul className={`nav flex-column ${styles.links}`}>
@@ -19,7 +18,7 @@ const Footer = () => {
                             <li className="nav-item mb-3"><a href="#" className="nav-link p-0 text-body-secondary"><FaPhone className={styles.icon} /> +1234 45667889</a></li>
                         </ul>
                     </div>
-                    <div className="col-sm-12 col-md-6">
+                    <div className="col-sm-12 col-md-5">
                         <div className="row g-2">
                             <div className="col-4 mb-3">
                                 <h5 className={styles.headings}>Links</h5>
@@ -57,7 +56,7 @@ const Footer = () => {
 
 
 
-                    <div className="col-sm-12 col-md-3 mb-3">
+                    <div className="col-sm-12 col-md-4 mb-3">
                         <form>
                             <h5 className={styles.headings}>Newsletter</h5>
                             <p className={`nav mb-3 flex-column ${styles.links}`}>Stay Up To Date</p>

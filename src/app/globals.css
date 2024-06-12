@@ -12,6 +12,11 @@
 
 .btn{
   border-radius: 0.2rem !important;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+  background-color: #FF5555 !important;
+  border-color: #FF5555 !important;
 }
 
 .text_black{
@@ -27,3 +32,9 @@
   font-weight: bold;
 }
 
+.animate_zoom{
+  transition: all 0.5s ease-in-out;
+}
+.animate_zoom:hover{
+transform: scale(1.05);
+}

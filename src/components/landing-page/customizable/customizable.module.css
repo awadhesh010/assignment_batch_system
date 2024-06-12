@@ -6,9 +6,33 @@
     font-size: 24px;
     font-weight: 600;
     color: 000;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 .icon{
-    color: red;
-    font-size: 1.7rem;
+    background-color: #FF5555;
+    color: #fff;
+    font-size: 1.5rem;
     margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.image{
+    margin-top: -60px;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+    .container_cust{
+        margin-top: 30px;
+    }
+    .image{
+        margin-top: 0;
+    }
 }

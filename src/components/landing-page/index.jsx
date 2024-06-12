@@ -1,21 +1,21 @@
-import Home from './home/Home';
-import Advantages from './advantages/Advantages';
-import Features from './features/Features';
-import Customizable from './customizable/Customizable';
-import Testimonal from './testimonal/Testimonal';
-import Faq from './faq/Faq';
-import Feedback from './feedback/Feedback';
+import Hero from './hero';
+import Advantages from './advantages';
+import Features from './features';
+import Customizable from './customizable';
+import Testimonal from './testimonal';
+import Faq from './faq';
 
 const LandingPage = () => {
     return (
         <>
-            <Home/>
-            <Features />
-            <Advantages />
-            <Customizable />
-            <Testimonal />
-            <Feedback/>
-            <Faq />
+            <main>
+                <Hero />
+                <Features />
+                <Advantages />
+                <Customizable />
+                <Testimonal />
+                <Faq />
+            </main>
         </>
     )
 }

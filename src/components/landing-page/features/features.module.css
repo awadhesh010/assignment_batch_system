@@ -28,9 +28,18 @@
 
 }
 
+.feature_item{
+transition: all 0.5s ease-in-out;
+}
+.feature_item:hover{
+    transform: translateY(-10px);
+}
 /* responsive  - media quary */
 
 @media only screen and (max-width: 600px) {
+    .container_cust{
+        margin-top: 50px;
+    }
     .resp_img {
       right: -20px !important;
       top: 100px;
